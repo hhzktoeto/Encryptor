@@ -155,7 +155,7 @@ public class Encryptor {
 				}
 			}
 		}
-		System.out.println("Расшифрованное сообщение / Encrypted message: ");
+		System.out.println("Расшифрованное сообщение / Encrypted message:");
 		for (char x : letters) {
 			System.out.print(x);
 		}
@@ -164,9 +164,9 @@ public class Encryptor {
 	}
 	private void quit() {
 		System.out.println("Спасибо, что воспользовался моей программой 😀\n" +
-						   "Можешь найти меня в телеграмме @hhzktoeto\n");
+				   "Можешь найти меня в телеграмме @hhzktoeto\n");
 		System.out.println("Thank for using my programm 😀\n" +
-				   		   "Feel free to contact me on Telegramm @hhzktoeto\n");
+				   "Feel free to contact me on Telegramm @hhzktoeto\n");
 		System.exit(0);
 	}
 }
