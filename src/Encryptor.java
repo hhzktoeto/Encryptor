@@ -81,7 +81,7 @@ public class Encryptor {
 		
 		key = new ArrayList(list);
 		Collections.shuffle(key);
-		System.out.println("Ключ был сгенерирован"); // Key was generated
+		System.out.println("Ключ был сгенерирован / Key was generated.");
 		
 	}
 	private void getKey() {
@@ -97,8 +97,8 @@ public class Encryptor {
 		}
 		System.out.println();
 		System.out.println("===========================        =============================\n" +
-						   "НЕ ЗАБУДЬТЕ СОХРАНИТЬ КЛЮЧ!        DON'T FORGET TO SAVE THE KEY!\n" + //To be able do DECRYPT a message save a key!
-						   "===========================        =============================");
+				   "НЕ ЗАБУДЬТЕ СОХРАНИТЬ КЛЮЧ!        DON'T FORGET TO SAVE THE KEY!\n" +
+				   "===========================        =============================");
 	}
 	
 	private void insertKey() {
@@ -140,7 +140,7 @@ public class Encryptor {
 		
 		insertKey();
 		
-		System.out.println("Вставьте зашифрованное сообщение / Paste an encrypted message:"); // 
+		System.out.println("Вставьте зашифрованное сообщение / Paste an encrypted message:");
 		String message = scanner.nextLine();
 		
 		letters = message.toCharArray();
